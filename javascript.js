@@ -1,6 +1,6 @@
 var todayDate = moment().format("dddd,MMM Do YYYY LT");
 $("#currentDay").html(todayDate);
-
+// This shows the current day and time in the jumbotron section
 $(function () {
   // saveButton click listener - this is the same as "eventListener"
   $(".saveButton").on("click", function () {
